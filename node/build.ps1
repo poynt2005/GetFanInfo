@@ -1,0 +1,1 @@
+node-gyp configure; node-gyp build; echo F | xcopy /Y .\build\Release\GetFanInfo.node .\GetFanInfo.node; rm .\build -r -force
